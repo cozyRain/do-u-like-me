@@ -5,7 +5,7 @@ let mainImage = document.getElementById("mainImage");
 
 let clickCount = 0;
 
-const noTexts = ["你不喜欢我了(´-ω-)", "要不再想想?(๑•́₃•̀๑)", "不许选这个!", "再选伤心了(｡•́︿•̀｡)", "别嘛~", "我不要!!!", "再选超爆:(", "嘿嘿嘿"];
+const noTexts = ["你不喜欢我了(´-ω-)", "要不再想想?(๑•́₃•̀๑)", "不许选这个!", "再选伤心了", "别嘛~", "我不要!!!", "再选嘿嘿:)", "嘿嘿嘿"];
 
 // No 状态与变换
 let noState = { x: 0, y: 0 };
