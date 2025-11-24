@@ -35,10 +35,9 @@ noButton.addEventListener("click", function () {
 
   // 最后一次点击：先放大 Yes，再隐藏 No
   if (clickCount === noTexts.length + 1) {
-    applyYesTransform(true);
-    setTimeout(() => {
-      noButton.style.display = "none";
-    }, 1);
+    noButton.style.display = "none";
+    // 移除位移，仅保留缩放，利用 Flexbox 自动居中
+    yesButton.style.transform = "scale(2.5)";
     return;
   }
 
