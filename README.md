@@ -22,7 +22,7 @@
 
 ## 演示
 
-点击右侧链接进入在线页面: [贺好好喜欢施好好嘛？](https://cozyrain.github.io/do-u-like-me/)
+点击右侧链接进入在线页面: [花花喜欢雨点嘛？](https://cozyrain.github.io/do-u-like-me/)
 
 或者下载后直接打开项目根目录下的 `index.html` 即可在浏览器中查看效果（无需后端）。
 
