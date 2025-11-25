@@ -1,3 +1,19 @@
+// 禁止选中与复制：阻止选择开始、复制事件，以及常见的复制/剪切/全选快捷键
+document.addEventListener("selectstart", function (e) {
+  e.preventDefault();
+});
+document.addEventListener("copy", function (e) {
+  e.preventDefault();
+});
+document.addEventListener("keydown", function (e) {
+  if (e.ctrlKey || e.metaKey) {
+    const key = e.key.toLowerCase();
+    if (key === "c" || key === "x" || key === "a") {
+      e.preventDefault();
+    }
+  }
+});
+
 let yesButton = document.getElementById("yes");
 let noButton = document.getElementById("no");
 let questionText = document.getElementById("question");

@@ -11,6 +11,13 @@ body {
   font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
   overflow: hidden; /* 防止按钮跑出去导致滚动条 */
 }
+/* 禁止选择文本以防止被复制（不影响交互按钮点击） */
+html, body, .container, h1, p, span, .buttons, button, .yes-card, .yes-text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 body {
   background: radial-gradient(circle at 50% 30%, #fff 0%, var(--bg) 100%);
   display: flex;
