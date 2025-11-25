@@ -1,0 +1,11 @@
+{
+  "name": "do-u-like-me",
+  "version": "1.0.0",
+  "description": "A simple interactive page",
+  "scripts": {
+    "build": "mkdir -p public && cp -r images index.html script.js style.css public/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
